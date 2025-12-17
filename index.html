@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+    <title>skinny.wtf</title>
+    <style type="text/css">
+        a, a:active {text-decoration: none; color: blue;}
+        a:visited {color: #48468F;}
+        a:hover, a:focus {text-decoration: underline; color: red;}
+        body {background-color: #F5F5F5;}
+        h2 {margin-bottom: 12px;}
+        table {margin-left: 12px;}
+        th, td { font: 90% monospace; text-align: left;}
+        th { font-weight: bold; padding-right: 14px; padding-bottom: 3px;}
+        td {padding-right: 14px;}
+        td.s, th.s {text-align: right;}
+        div.list { background-color: white; border-top: 1px solid #646464; border-bottom: 1px solid #646464; padding-top: 10px; padding-bottom: 14px;}
+        div.foot { font: 90% monospace; color: #787878; padding-top: 4px;}
+    </style>
+    <meta property="og:title" content="SkinnyTV" />
+    <meta property="og:image"
+          content="https://skinny.wtf/sign.jpg" />
+</head>
+<body>
+    <pre class="header">########################################################################################
+         888      d8b                                              888     .d888 
+         888      Y8P                                              888    d88P"  
+         888                                                       888    888    
+.d8888b  888  888 888 88888b.  88888b.  888  888     888  888  888 888888 888888 
+88K      888 .88P 888 888 "88b 888 "88b 888  888     888  888  888 888    888    
+"Y8888b. 888888K  888 888  888 888  888 888  888     888  888  888 888    888    
+     X88 888 "88b 888 888  888 888  888 Y88b 888 d8b Y88b 888 d88P Y88b.  888    
+ 88888P' 888  888 888 888  888 888  888  "Y88888 Y8P  "Y8888888P"   "Y888 888    
+                                             888                                 
+                                        Y8b d88P                                 
+                                         "Y88P"                                  
+########################################################################################</pre>
+    Redirecting you to SkinnyTV in <span id="countdown">3</span> seconds...
+    <script>
+    // Total seconds to wait
+    	var seconds = 4;
+    
+    	function countdown() {
+       	 seconds = seconds - 1;
+       	 if (seconds < 0) {
+       	     // Chnage your redirection link here
+       	     window.location = "https://www.twitch.tv/giantdeathrobot";
+         } else {
+             // Update remaining seconds
+             document.getElementById("countdown").innerHTML = seconds;
+             // Count down using javascript
+             window.setTimeout("countdown()", 1000);
+         }
+    	}
+    
+    	// Run countdown function
+    	countdown();
+	
+    </script>
+</body>
+</html>
